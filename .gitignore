@@ -1,0 +1,29 @@
+# 构建输出
+bin/
+obj/
+publish/
+
+# Release 用 exe（通过 GitHub Release 分发，不进仓库）
+*.exe
+*.pdb
+*.dll
+*.zip
+
+# 更新临时文件
+beardream_new.exe
+update.bat
+update.log
+
+# 用户配置（如果要让配置外置）
+# appsettings.json
+# announcements.json
+
+# IDE
+.vs/
+.vscode/
+*.user
+*.suo
+
+# 系统
+Thumbs.db
+Desktop.ini
